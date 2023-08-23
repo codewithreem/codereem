@@ -167,7 +167,7 @@ btn40.addEventListener("click", () => {
 });
 
 // Function to set a cookie with a name, value, and expiration
-function setCookie(name, value, days) {
+/*function setCookie(name, value, days) {
   var expires = "";
   if (days) {
       var date = new Date();
@@ -203,4 +203,4 @@ var setPreferenceButton = document.getElementById("setPreference");
 setPreferenceButton.addEventListener("click", function() {
   setCookie("preference", "darkTheme", 30); // Set a preference cookie that lasts 30 days
   console.log("Preference cookie set: darkTheme");
-});
+});*/
